@@ -4,5 +4,5 @@ branches:
 - master
 projects:
   SkyBlockUI:
-    path: "image_create.jpg"
+    path: "https://github.com/Pedhot-Dev/SkyBlockUI/blob/master/image_create.jpg"
 ...
