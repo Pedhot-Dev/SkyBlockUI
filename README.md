@@ -1,6 +1,6 @@
 # SkyBlockUI
 Plugin for PocketMine-MP
-<a href="https://poggit.pmmp.io/p/SkyBlockUI"><img src="https://poggit.pmmp.io/shield.state/SkyBlockUI"></a>
+<a href="https://raw.githubusercontent.com/Pedhot-Dev/SkyBlockUI/master/icon.png"><img src="https://raw.githubusercontent.com/Pedhot-Dev/SkyBlockUI/master/icon.png"></a>
 
 # Depend
 - FormAPI
