@@ -105,11 +105,11 @@ class Main extends PluginBase implements Listener
 
     public function onManageI(Player $sender)
     {
+        $session = SkyBlock::getInstance()->getSessionManager()->getSession($sender);
         $form = new SimpleForm(function (Player $sender, $data){
             if ($data === null) {
                 return true;
             }
-            $session = SkyBlock::getInstance()->getSessionManager()->getSession($sender);
             switch ($data){
                 case '0':
                     $session->getIsland()->setLocked(!$session->getIsland()->isLocked());
