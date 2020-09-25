@@ -22,7 +22,7 @@ class Main extends PluginBase implements Listener
 
     public function onEnable()
     {
-        Server::getInstance()->getPluginManager()->registerEvents($thid, $this);
+        Server::getInstance()->getPluginManager()->registerEvents($this, $this);
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
