@@ -36,6 +36,7 @@ class Main extends PluginBase implements Listener
                 $this->onManage($sender);
             }
         }
+        return true;
     }
 
     public function onCreate(Player $sender)
