@@ -1,0 +1,20 @@
+name: SkyBlockUI
+main: pedhot\SkyBlockUI\Main
+api:
+  3.0.0
+version: 1.0-Beta
+author:
+  Pedhot-Dev
+  Kygekraqmak
+
+commands:
+  sbui:
+    description: "SkyBlockUI Commands"
+    aliases:
+      - skyblockui
+      - isui
+      - islandui
+
+depend:
+  - FormAPI
+  - SkyBlock
